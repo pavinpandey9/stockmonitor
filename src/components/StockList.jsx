@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import FilterStock from "./FilterStock";
 import SortStock from "./SortStock";
 import StockItem from "./StockItem";
