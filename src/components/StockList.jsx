@@ -56,9 +56,7 @@ const StockList = () => {
     }
   };
 
-  const displayedStocks = useMemo(() => {
-    return getSortedStocks(getFilteredStocks());
-  }, [stocks, filterValue, sortValue]);
+  const displayedStocks = getSortedStocks(getFilteredStocks());
 
   return (
     <div className="stock-list">
