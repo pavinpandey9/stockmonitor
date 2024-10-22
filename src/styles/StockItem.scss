@@ -1,0 +1,12 @@
+.stock-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+
+  &.text-green {
+    color: green;
+  }
+
+  &.text-red {
+    color: red;
+  }
+}
